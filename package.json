@@ -1,0 +1,36 @@
+{
+  "name": "top-movies",
+  "description": "Top Movies as voted by geeks on github",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "version": "0.0.0",
+  "private": "true",
+  "engines": {
+    "node": ">= 0.6.x < 0.9.0"
+  },
+  "dependencies": {
+    "async": "0.1.x",
+    "csv": "0.0.x",
+    "debug": "*",
+    "getit": "0.2.x",
+    "imdb-api": "1.0.x",
+    "out": "0.4.x",
+    "underscore": "1.3.x"
+  },
+  "devDependencies": {
+    "request": "2.11.x",
+    "mocha": "1.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DamonOehlman/top-movies.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DamonOehlman/top-movies/issues"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "contributors": [],
+  
+  "maxPoints": 50
+}
